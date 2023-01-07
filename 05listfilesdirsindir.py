@@ -26,6 +26,5 @@ class ListFilesDirectories:
                 print(items)
 if __name__ == "__main__": 
     directorypath = input("Enter the directory to generate list of contents: ")
-    #directory path = /home/danielchakraborty/Desktop/ 
     outputObject = ListFilesDirectories(directorypath) 
     outputObject.ListAllFilesDirectories()
