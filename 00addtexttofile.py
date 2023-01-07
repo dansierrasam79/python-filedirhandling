@@ -10,7 +10,6 @@ class AddTextToFile:
         textFile.close() 
 # Driver code 
 if __name__ == "__main__":
-    # filepath: /home/danielchakraborty/Desktop/
     filepath = input("Enter the file path to open the file: ") 
     # filename: daniel.txt
     filename = input("Enter the file name: ") 
